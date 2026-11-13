@@ -59,6 +59,10 @@
       {
         "tab": "AmazeCC-API",
         "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC-API" }]
+      },
+      {
+        "tab": "Landing",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/landing" }]
       }
     ]
   },
