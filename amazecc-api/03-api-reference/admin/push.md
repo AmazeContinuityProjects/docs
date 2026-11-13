@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Push"
 description: "Admin - POST /api/admin/push. Broadcast a web-push notification to all subscriptions."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/admin/push`

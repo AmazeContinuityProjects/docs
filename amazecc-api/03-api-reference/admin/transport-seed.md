@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Seed"
 description: "Admin - POST /api/admin/transport/seed. Seed transport data from seed.json (used for initial import)."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/admin/transport/seed`

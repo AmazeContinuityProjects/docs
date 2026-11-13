@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Trips"
 description: "Admin - GET/DELETE /api/admin/cabshare/trips. CabShare trips moderation. DELETE ?trip_id"
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `GET, DELETE /api/admin/cabshare/trips`

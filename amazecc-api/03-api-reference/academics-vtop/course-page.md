@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Course Page"
 description: "Academics & VTOP - POST /api/course-page. Course view page scrape: parseCoursePage/parseCourseClasses/parseCoursePageMaterials. Heavy parser, ~300 lines of cheerio selectors."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/course-page`

@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Questions"
 description: "QBank - GET /api/qbank/questions. Approved questions for a course. ?course filter."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `GET /api/qbank/questions`

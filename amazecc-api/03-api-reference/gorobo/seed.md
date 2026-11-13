@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Seed"
 description: "GoRobo Shop - POST /api/gorobo/seed. Seed the catalog from src/data/gorobo/items.json. Admin + gorobo permission."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/gorobo/seed`

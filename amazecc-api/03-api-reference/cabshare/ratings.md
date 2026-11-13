@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Ratings"
 description: "CabShare - POST /api/cabshare/ratings. Rate a co-rider after a trip."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/cabshare/ratings`

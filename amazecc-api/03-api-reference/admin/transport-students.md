@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Students"
 description: "Admin - POST/DELETE /api/admin/transport/students. Map students to routes. DELETE ?routeId."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST, DELETE /api/admin/transport/students`

@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Fresher Resources [id]"
 description: "Admin - PATCH/DELETE /api/admin/fresher-resources/[id]. Update or remove a single fresher resource."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `PATCH, DELETE /api/admin/fresher-resources/[id]`

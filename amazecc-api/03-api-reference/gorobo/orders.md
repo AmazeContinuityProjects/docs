@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Orders"
 description: "GoRobo Shop - POST /api/gorobo/orders. Public order placement (rate-limited). Pending → confirmed by admin."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/gorobo/orders`

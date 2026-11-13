@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Stats"
 description: "CabShare - GET /api/cabshare/stats. Usage stats for the CabShare board."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `GET /api/cabshare/stats`

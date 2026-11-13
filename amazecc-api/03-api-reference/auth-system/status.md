@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Status"
 description: "Auth & System - GET /api/status. Trivial liveness probe."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `GET /api/status`

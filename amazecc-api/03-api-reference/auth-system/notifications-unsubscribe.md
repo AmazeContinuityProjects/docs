@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Unsubscribe"
 description: "Auth & System - POST /api/notifications/unsubscribe. Unregister a web-push subscription."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/notifications/unsubscribe`

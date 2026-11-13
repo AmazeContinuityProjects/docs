@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "OCR"
 description: "QBank - POST /api/qbank/admin/ocr. Sets approval_status=OCR_QUEUED for the external local OCR worker."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/qbank/admin/ocr`

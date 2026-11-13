@@ -1,10 +1,11 @@
-{/* generated: aapi1 */}
 ---
 title: "Scrape"
 description: "Faculty Directory - POST /api/faculty/scrape. Scrapes the VIT faculty directory for a school and caches rows in our DB. Public (rate-limited) — flagged in docs."
 ---
 
-import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.js";
+{/* generated: aapi1 */}
+
+import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
 
 # `POST /api/faculty/scrape`
