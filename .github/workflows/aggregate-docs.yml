@@ -35,6 +35,9 @@ jobs:
           # https://github.com/marketplace/actions/mintlify-multirepo-action).
           token: ${{ github.token }}
           github-token: ${{ github.token }}
-          mode: pull-request
-        # mode: pull-request requires Settings → Actions → General → "Allow GitHub
-        # Actions to create and approve pull requests" to be enabled in this repo.
+          # mode: pull-request is blocked by this repo's org setting ("GitHub
+          # Actions is not permitted to create or approve pull requests").
+          # This repo's main is unprotected, so we sync directly with mode: push.
+          # When the org enables the setting above, switch this back to pull-request.
+          mode: push
+          base-branch: main
