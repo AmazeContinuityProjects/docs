@@ -1494,6 +1494,103 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "AmazeUI",
+        "pages": [
+          {
+            "group": "Start here",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Getting started",
+                "root": "amazeui/00-start-here/index",
+                "pages": [
+                  "amazeui/00-start-here/install-and-style",
+                  "amazeui/00-start-here/first-component",
+                  "amazeui/00-start-here/choose-a-component"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Core concepts",
+            "icon": "book-open",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "React and styling foundations",
+                "root": "amazeui/01-concepts/index",
+                "pages": [
+                  "amazeui/01-concepts/jsx-and-typescript",
+                  "amazeui/01-concepts/state-and-events",
+                  "amazeui/01-concepts/tailwind-and-theme",
+                  "amazeui/01-concepts/web-platform-primitives"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Component guides",
+            "icon": "blocks",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Components by task",
+                "root": "amazeui/02-components/index",
+                "pages": [
+                  "amazeui/02-components/inputs-and-controls",
+                  "amazeui/02-components/feedback-and-status",
+                  "amazeui/02-components/navigation-and-layout",
+                  "amazeui/02-components/overlays-and-command",
+                  "amazeui/02-components/data-and-timetable",
+                  "amazeui/02-components/composite-components",
+                  "amazeui/02-components/theme-and-palette"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Code tours",
+            "icon": "code",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Read the implementation",
+                "root": "amazeui/03-code-tour/index",
+                "pages": [
+                  "amazeui/03-code-tour/package-entrypoints",
+                  "amazeui/03-code-tour/button-line-by-line",
+                  "amazeui/03-code-tour/primitives-and-class-merging",
+                  "amazeui/03-code-tour/color-palette-hook",
+                  "amazeui/03-code-tour/dialog-and-controlled-state",
+                  "amazeui/03-code-tour/building-and-testing-components"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "library",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "API and maintenance",
+                "root": "amazeui/04-reference/index",
+                "pages": [
+                  "amazeui/04-reference/public-export-catalog",
+                  "amazeui/04-reference/props-and-defaults",
+                  "amazeui/04-reference/package-and-dependencies",
+                  "amazeui/04-reference/testing-ci-and-release",
+                  "amazeui/04-reference/repository-map",
+                  "amazeui/04-reference/glossary",
+                  "amazeui/04-reference/ai-and-mintlify-tools"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },

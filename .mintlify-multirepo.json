@@ -4,7 +4,8 @@
     "amazecc-dashboard",
     "amazecc-api",
     "amazecc-club-hub",
-    "landing"
+    "landing",
+    "amazeui"
   ],
   "sources": {
     "amazecc": {
@@ -27,6 +28,10 @@
     "landing": {
       "repo": "AmazeContinuityProjects/landing",
       "sha": "c7163ca64ad2281d898517d76f53cfbbcc7ff7d3"
+    },
+    "amazeui": {
+      "repo": "AmazeContinuityProjects/AmazeUI",
+      "sha": "1f9d498ee4548277a5cc212d95ba3929b016d77e"
     }
   }
 }
