@@ -3,6 +3,7 @@
     "amazecc",
     "amazecc-dashboard",
     "amazecc-api",
+    "amazecc-club-hub",
     "landing"
   ],
   "sources": {
@@ -17,6 +18,11 @@
     "amazecc-api": {
       "repo": "AmazeContinuityProjects/AmazeCC-API",
       "sha": "64d44f403ecc228d0780457e569abb916f246197"
+    },
+    "amazecc-club-hub": {
+      "repo": "AmazeContinuityProjects/AmazeCC-Club-Hub",
+      "ref": "modifs",
+      "sha": "ae9d8747b490fa7a746b2ec76275be52b689f569"
     },
     "landing": {
       "repo": "AmazeContinuityProjects/landing",

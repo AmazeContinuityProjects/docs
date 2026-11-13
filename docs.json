@@ -1271,6 +1271,116 @@
         ]
       },
       {
+        "tab": "AmazeCC Club Hub",
+        "pages": [
+          {
+            "group": "Start here",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Start Here",
+                "root": "amazecc-club-hub/00-start-here/index",
+                "pages": [
+                  "amazecc-club-hub/00-start-here/conventions",
+                  "amazecc-club-hub/00-start-here/how-it-works",
+                  "amazecc-club-hub/00-start-here/quickstart"
+                ],
+                "expanded": true
+              }
+            ]
+          },
+          {
+            "group": "Architecture",
+            "icon": "cpu",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Architecture",
+                "root": "amazecc-club-hub/01-architecture/index",
+                "pages": [
+                  "amazecc-club-hub/01-architecture/amazecc-context",
+                  "amazecc-club-hub/01-architecture/layout-and-theming",
+                  "amazecc-club-hub/01-architecture/react-native-web",
+                  "amazecc-club-hub/01-architecture/static-export"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Components",
+            "icon": "layout-dashboard",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Components",
+                "root": "amazecc-club-hub/02-components/index",
+                "pages": [
+                  "amazecc-club-hub/02-components/club-details-editor",
+                  "amazecc-club-hub/02-components/feed-manager",
+                  "amazecc-club-hub/02-components/landing-page-builder",
+                  "amazecc-club-hub/02-components/login-page",
+                  "amazecc-club-hub/02-components/page",
+                  "amazecc-club-hub/02-components/rep-manager",
+                  "amazecc-club-hub/02-components/sidebar",
+                  "amazecc-club-hub/02-components/theme-switcher"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "API Integration",
+            "icon": "plug",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "API Integration",
+                "root": "amazecc-club-hub/03-api-integration/index",
+                "pages": [
+                  "amazecc-club-hub/03-api-integration/auth-flow",
+                  "amazecc-club-hub/03-api-integration/club-admin-endpoints",
+                  "amazecc-club-hub/03-api-integration/envelopes-and-errors",
+                  "amazecc-club-hub/03-api-integration/feed-endpoints"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Operations",
+            "icon": "wrench",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Operations",
+                "root": "amazecc-club-hub/04-operations/index",
+                "pages": [
+                  "amazecc-club-hub/04-operations/ci",
+                  "amazecc-club-hub/04-operations/deployment",
+                  "amazecc-club-hub/04-operations/env-vars",
+                  "amazecc-club-hub/04-operations/security"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "book-open",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Reference",
+                "root": "amazecc-club-hub/05-reference/index",
+                "pages": [
+                  "amazecc-club-hub/05-reference/data-types",
+                  "amazecc-club-hub/05-reference/known-issues",
+                  "amazecc-club-hub/05-reference/localstorage-keys"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Landing",
         "pages": [
           {
