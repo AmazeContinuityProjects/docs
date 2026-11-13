@@ -14,11 +14,11 @@
     },
     "amazecc-dashboard": {
       "repo": "AmazeContinuityProjects/AmazeCC-Dashboard",
-      "sha": "5020645acad25cd66a16c752795c8bfa2961093c"
+      "sha": "19e855c8ba315bb8793d49f318ae776bbf602a74"
     },
     "amazecc-api": {
       "repo": "AmazeContinuityProjects/AmazeCC-API",
-      "sha": "ed3b2ad85aef257e85af15266420a241259a1636"
+      "sha": "f01bc87a32f707cf2a7eac29dbf4adc9e6fd7b1b"
     },
     "amazecc-club-hub": {
       "repo": "AmazeContinuityProjects/AmazeCC-Club-Hub",
