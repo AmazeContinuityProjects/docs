@@ -13,6 +13,9 @@ sources:
   - repo: AmazeContinuityProjects/AmazeCC-API
     path: docs
     destination: amazecc-api
+  - repo: AmazeContinuityProjects/AmazeCC-Club-Hub
+    path: docs
+    destination: amazecc-club-hub
   - repo: AmazeContinuityProjects/landing
     path: docs
     destination: landing

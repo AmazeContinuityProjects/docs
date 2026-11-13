@@ -61,6 +61,10 @@
         "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC-API" }]
       },
       {
+        "tab": "AmazeCC Club Hub",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC-Club-Hub" }]
+      },
+      {
         "tab": "Landing",
         "pages": [{ "sourceRef": "AmazeContinuityProjects/landing" }]
       }
