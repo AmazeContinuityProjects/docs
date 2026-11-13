@@ -1,55 +1,49 @@
-# Mintlify Starter Kit
+# AmazeCC Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+The documentation site for **AmazeCC** — the VIT student portal, rebuilt. A Mintlify site that aggregates the docs tree from the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC) and serves it as a single, navigable handbook for developers.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+**Live site:** https://amazecc.com/docs (or your Mintlify-assigned URL until the custom domain is wired)
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+## How this repo works
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+This repo is the **site shell**. The actual content lives in the [AmazeCC](https://github.com/AmazeContinuityProjects/AmazeCC) repo under `docs/`. A scheduled/manual GitHub Action (`Aggregate docs`, `.github/workflows/aggregate-docs.yml`) pulls that folder in here, rewrites the navigation, and opens a PR or pushes to this repo:
 
-## AI-assisted writing
+```
+AmazeCC/                              this repo (AmazeContinuityProjects/docs)
+  docs/  ──shallow-clone──▶           amazecc/                    ← synced content
+  docs/docs.json ──merge──▶           docs.json (generated)        ← synced nav
+  (everything else here)              docs.base.json, .github/,     ← you edit these
+                                       index.mdx, quickstart.mdx,
+                                       logo/, favicon.svg
+```
 
-Set up your AI coding tool to work with Mintlify:
+**Do not edit `amazecc/` or `docs.json` here — the next sync overwrites them.** To change a page, edit the child repo (AmazeCC, `docs/…`). To change site configuration (theme, tabs, landing pages), edit `docs.base.json` and the rebranded files.
+
+## Local development
 
 ```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the guides for [Claude Code](https://www.mintlify.com/docs/guides/claude-code), [Codex](https://www.mintlify.com/docs/guides/codex), [Cursor](https://www.mintlify.com/docs/guides/cursor), and [Devin Desktop](https://www.mintlify.com/docs/guides/devin-desktop) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
 npm i -g mint
+mint dev          # http://localhost:3000
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+Previewing the aggregated site without a sync run:
 
-```
+```bash
+git clone https://github.com/AmazeContinuityProjects/docs.git
+cd docs
+# (after the first sync has populated amazecc/, or with a shallow copy of it)
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+## Publishing
 
-## Publishing changes
+Mintlify deploys this repo automatically on push to `main` (after you install the Mintlify GitHub App on the organization). The sync workflow opens a PR whenever the child's docs change; merge it and the site updates.
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+- [AmazeCC](https://github.com/AmazeContinuityProjects/AmazeCC) — the app + its docs source tree
+- [AmazeCC-API](https://github.com/AmazeContinuityProjects/AmazeCC-API) — the backend scraper
+- [Mintlify](https://mintlify.com) — docs framework
+- [Mintlify multirepo action](https://github.com/mintlify/multirepo-action) — the aggregator used here
 
-## Need help?
+## License
 
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+MIT.

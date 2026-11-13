@@ -1,0 +1,9 @@
+# Child repositories to aggregate into this Mintlify site.
+# Each source is shallow-cloned, copied into its `destination` (which is also
+# the URL prefix), and its `navigation` is merged over docs.base.json.
+base: docs.base.json
+output: docs.json
+sources:
+  - repo: AmazeContinuityProjects/AmazeCC
+    path: docs
+    destination: amazecc

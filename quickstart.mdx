@@ -1,47 +1,72 @@
 ---
 title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+description: "From zero to running AmazeCC in your browser — five minutes, no VIT account needed."
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
+This is the fastest path to a running AmazeCC dev environment. It ends with you looking at your own local copy of the app, pre-populated with demo data.
 
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+<Note>
+  AmazeCC is a static export of a Next.js 16 app — no database, no backend of its own, no VTOP account required for development. The backend lives in [AmazeContinuityProjects/AmazeCC-API](https://github.com/AmazeContinuityProjects/AmazeCC-API).
+</Note>
 
 ## Prerequisites
 
-Before you begin, you must have:
+Before you begin, you need:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- **Node.js 22 LTS** (v22.x) — check with `node --version`
+- **pnpm** — via Corepack: `corepack enable && corepack prepare pnpm@latest --activate`
+- **git**
+- Any modern browser (Chrome or Edge recommended — service worker tooling first-class)
+
+<Note>
+  Never `npm install` here. The repo enforces pnpm in `.npmrc` and the lockfile is strict.
+</Note>
 
 ## Get started
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
-
+  <Step title="Clone and install">
     ```bash
-    npm install your-package
+    git clone https://github.com/AmazeContinuityProjects/AmazeCC.git
+    cd AmazeCC
+    pnpm install
     ```
+    About 1–4 minutes depending on network.
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
-
+  <Step title="Run the dev server">
     ```bash
-    your-cli init
+    pnpm dev
     ```
+    Opens at **https://localhost:3001** (self-signed cert — click through the warning), or use `pnpm dev:http` for plain HTTP.
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
-
-    ```bash
-    your-cli start
-    ```
+  <Step title="Click “Try the demo”">
+    On the landing page, choose **Try the demo** — the entire app fills with a fictional student's data: attendance, marks, grades, FFCS planner, everything. No network calls, nothing leaves your browser.
+  </Step>
+  <Step title="Make your first change">
+    Edit any text in `src/components/custom/app/GuestExperience.tsx` and save — the dev server hot-reloads instantly. See [Getting Started](/amazecc/01-getting-started/README) for the real handbook.
   </Step>
 </Steps>
 
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
+## Run the tests
 
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
-</Tip>
+```bash
+pnpm run test          # all 200+ suites
+pnpm run test -- ffcs  # just the FFCS suites
+```
+
+## Where next?
+
+<CardGroup cols={2}>
+  <Card title="Web Foundation" icon="book-open" href="/amazecc/00-web-foundation/README">
+    New to web dev? Read this before anything else.
+  </Card>
+  <Card title="Architecture" icon="layers" href="/amazecc/02-architecture/README">
+    The mental model: one page shell, sync engine, atoms vs cache.
+  </Card>
+  <Card title="Getting Started" icon="rocket" href="/amazecc/01-getting-started/README">
+    The full first-hour tour and contribution path.
+  </Card>
+  <Card title="FAQ" icon="life-buoy" href="/amazecc/13-troubleshooting/07-faq">
+    Week-one questions every new dev asks.
+  </Card>
+</CardGroup>

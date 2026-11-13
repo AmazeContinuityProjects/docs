@@ -1,0 +1,49 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "AmazeCC Docs",
+  "colors": {
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4F46E5"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Start here",
+        "pages": ["index", "quickstart"]
+      },
+      {
+        "tab": "AmazeCC Documentation",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC" }]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/AmazeContinuityProjects/AmazeCC"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open AmazeCC",
+      "href": "https://amazecc.com"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://amazecc.com",
+      "github": "https://github.com/AmazeContinuityProjects"
+    }
+  }
+}

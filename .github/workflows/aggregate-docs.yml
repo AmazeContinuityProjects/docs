@@ -1,0 +1,40 @@
+name: Aggregate docs
+
+# Full re-sync on every trigger: runs can be retried and canceled safely.
+# Trigger manually, on a schedule, or when a child repository dispatches
+# `docs-updated` to this repo.
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [docs-updated]
+  schedule:
+    - cron: "0 6 * * *"
+
+concurrency:
+  group: mintlify-multirepo
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: mintlify/multirepo-action@v1
+        with:
+          # Children here are public, so github.token can read them. Pull requests
+          # are opened against this repo with the same token.
+          #
+          # To let this keep working if a child becomes private, or if PRs ever
+          # need CI to run: create a GitHub App installed on this org with
+          # contents:read, set DOCS_APP_ID and DOCS_APP_PRIVATE_KEY, then swap the
+          # token for a actions/create-github-app-token step (see
+          # https://github.com/marketplace/actions/mintlify-multirepo-action).
+          token: ${{ github.token }}
+          github-token: ${{ github.token }}
+          mode: pull-request
+        # mode: pull-request requires Settings → Actions → General → "Allow GitHub
+        # Actions to create and approve pull requests" to be enabled in this repo.
