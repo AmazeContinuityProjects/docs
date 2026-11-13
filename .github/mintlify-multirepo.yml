@@ -13,3 +13,6 @@ sources:
   - repo: AmazeContinuityProjects/AmazeCC-API
     path: docs
     destination: amazecc-api
+  - repo: AmazeContinuityProjects/landing
+    path: docs
+    destination: landing
