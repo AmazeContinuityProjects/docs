@@ -807,6 +807,135 @@
         ]
       },
       {
+        "tab": "AmazeCC Dashboard",
+        "pages": [
+          {
+            "group": "Start here",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Start here",
+                "root": "amazecc-dashboard/00-start-here/index",
+                "pages": [
+                  "amazecc-dashboard/00-start-here/web-app-in-five-minutes",
+                  "amazecc-dashboard/00-start-here/quickstart",
+                  "amazecc-dashboard/00-start-here/request-to-screen"
+                ],
+                "expanded": true
+              }
+            ]
+          },
+          {
+            "group": "Admin portal",
+            "icon": "shield-check",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Admin portal",
+                "root": "amazecc-dashboard/01-admin-portal/index",
+                "pages": [
+                  "amazecc-dashboard/01-admin-portal/login-and-session",
+                  "amazecc-dashboard/01-admin-portal/roles-and-permissions",
+                  "amazecc-dashboard/01-admin-portal/navigation-and-shortcuts"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Frontend architecture",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Frontend architecture",
+                "root": "amazecc-dashboard/02-frontend-architecture/index",
+                "pages": [
+                  "amazecc-dashboard/02-frontend-architecture/component-and-state-model",
+                  "amazecc-dashboard/02-frontend-architecture/api-client-and-data-loading",
+                  "amazecc-dashboard/02-frontend-architecture/browser-storage",
+                  "amazecc-dashboard/02-frontend-architecture/static-export-and-routing"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Admin workspaces",
+            "icon": "layout-dashboard",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Admin workspaces",
+                "root": "amazecc-dashboard/03-admin-workspaces/index",
+                "pages": [
+                  "amazecc-dashboard/03-admin-workspaces/question-bank-and-ocr",
+                  "amazecc-dashboard/03-admin-workspaces/gorobo-store",
+                  "amazecc-dashboard/03-admin-workspaces/transport-and-dayscholars",
+                  "amazecc-dashboard/03-admin-workspaces/system-tools"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Engineering and operations",
+            "icon": "wrench",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Engineering and operations",
+                "root": "amazecc-dashboard/04-engineering/index",
+                "pages": [
+                  "amazecc-dashboard/04-engineering/design-system-and-accessibility",
+                  "amazecc-dashboard/04-engineering/offline-and-notifications",
+                  "amazecc-dashboard/04-engineering/testing-and-build",
+                  "amazecc-dashboard/04-engineering/deployment-and-environments"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "book",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Reference",
+                "root": "amazecc-dashboard/05-reference/index",
+                "pages": [
+                  "amazecc-dashboard/05-reference/repository-map",
+                  "amazecc-dashboard/05-reference/configuration-catalog",
+                  "amazecc-dashboard/05-reference/glossary"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Code tours",
+            "icon": "code",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Read the code",
+                "root": "amazecc-dashboard/06-code-tour/index",
+                "pages": [
+                  "amazecc-dashboard/06-code-tour/typescript-react-syntax",
+                  "amazecc-dashboard/06-code-tour/main-login-and-shell",
+                  "amazecc-dashboard/06-code-tour/admin-layout-line-by-line",
+                  "amazecc-dashboard/06-code-tour/api-client-line-by-line",
+                  "amazecc-dashboard/06-code-tour/admin-overview-data-flow",
+                  "amazecc-dashboard/06-code-tour/shared-admin-ui",
+                  "amazecc-dashboard/06-code-tour/content-workspaces-code-tour",
+                  "amazecc-dashboard/06-code-tour/gorobo-code-tour",
+                  "amazecc-dashboard/06-code-tour/operations-code-tour",
+                  "amazecc-dashboard/06-code-tour/workspace-module-catalog",
+                  "amazecc-dashboard/06-code-tour/mintlify-and-ai-tools"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "tab": "AmazeCC-API",
         "pages": [
           {
