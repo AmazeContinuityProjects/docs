@@ -1,15 +1,11 @@
 ---
-title: "AmazeCC Docs"
-description: "Developer documentation for AmazeCC — the VIT student portal rebuilt."
+title: "AmazeCC"
+description: "The AmazeCC handbook — understand, run, extend, and ship the app that replaces VIT's official portal for 20,000+ students."
 ---
 
-Welcome to the AmazeCC developer handbook. This is the aggregated home of everything you need to understand, run, extend, and ship AmazeCC — the app that replaces VIT's official portal for 20,000+ students.
+# AmazeCC Docs
 
-New here? Start with the quickstart, then walk the web foundation like you'd learn the product from scratch.
-
-<Tip>
-  The full handbook syncs automatically from the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC) — edit the source docs there, not here. This site is rebuilt by the [aggregate workflow](https://github.com/AmazeContinuityProjects/docs/actions).
-</Tip>
+The developer handbook for AmazeCC — the app that replaces VIT's official portal for 20,000+ students. Everything you need to understand, run, extend, and ship it, synced automatically from the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC).
 
 <CardGroup cols={2}>
   <Card
@@ -40,9 +36,28 @@ New here? Start with the quickstart, then walk the web foundation like you'd lea
   >
     The one-page app shape, the sync engine, static export, PWA shell — the whole mental model in five minutes.
   </Card>
+</CardGroup>
+
+## Start here
+
+<Steps>
+  <Step title="Get it running">
+    Follow the [Quickstart](/quickstart) — clone, `pnpm install`, `pnpm dev`, then open the demo. Five minutes, fully local, with a fictional student's data.
+  </Step>
+  <Step title="Learn the mental model">
+    Read [Architecture](/amazecc/02-architecture/README) to understand the one-page shell, the sync engine, and the atoms-vs-cache state split.
+  </Step>
+  <Step title="Make your first change">
+    Work through [Getting Started](/amazecc/01-getting-started/README) — the full first-hour tour from clone to your first merged PR.
+  </Step>
+</Steps>
+
+## Guides
+
+<CardGroup cols={2}>
   <Card
     title="The FFCS Planner"
-    icon="table-2"
+    icon="calendar"
     href="/amazecc/05-ffcs-planner/README"
   >
     The flagship feature: how the timetable search works, how it's tested, and where the bodies are buried.
@@ -69,3 +84,28 @@ New here? Start with the quickstart, then walk the web foundation like you'd lea
     Sync fails? Blank app? Half-working? Decision trees and the console errors you'll actually see.
   </Card>
 </CardGroup>
+
+## Contribute
+
+The handbook is open source. Docs live in the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC/tree/main/docs) and are synced into this site automatically — edit the source there, not here. Site configuration lives in this repository.
+
+<CardGroup cols={2}>
+  <Card
+    title="Edit the handbook"
+    icon="pen-line"
+    href="https://github.com/AmazeContinuityProjects/AmazeCC/tree/main/docs"
+  >
+    Fix a typo, expand a guide, add a page — the sync ships your change here on push.
+  </Card>
+  <Card
+    title="Edit this site"
+    icon="github"
+    href="https://github.com/AmazeContinuityProjects/docs"
+  >
+    Theme, navigation, and branding for this Mintlify site — `docs.base.json` is the source of truth.
+  </Card>
+</CardGroup>
+
+<Tip>
+  The full handbook syncs automatically from the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC) — edit the source docs there, not here. This site is rebuilt by the [aggregate workflow](https://github.com/AmazeContinuityProjects/docs/actions).
+</Tip>
