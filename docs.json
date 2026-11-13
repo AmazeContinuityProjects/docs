@@ -1109,6 +1109,24 @@
                 ]
               },
               {
+                "group": "Response Shapes",
+                "root": "amazecc-api/05-reference/response-shapes/index",
+                "pages": [
+                  "amazecc-api/05-reference/response-shapes/academics-vtop",
+                  "amazecc-api/05-reference/response-shapes/admin",
+                  "amazecc-api/05-reference/response-shapes/auth-system",
+                  "amazecc-api/05-reference/response-shapes/cabshare",
+                  "amazecc-api/05-reference/response-shapes/clubs-events",
+                  "amazecc-api/05-reference/response-shapes/faculty",
+                  "amazecc-api/05-reference/response-shapes/finance",
+                  "amazecc-api/05-reference/response-shapes/gorobo",
+                  "amazecc-api/05-reference/response-shapes/lms-koha",
+                  "amazecc-api/05-reference/response-shapes/qbank",
+                  "amazecc-api/05-reference/response-shapes/social",
+                  "amazecc-api/05-reference/response-shapes/transport-buses"
+                ]
+              },
+              {
                 "group": "The VITianCC App (RE Notes)",
                 "root": "amazecc-api/m-app/index",
                 "pages": [
