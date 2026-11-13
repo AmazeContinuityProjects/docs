@@ -3,7 +3,7 @@ title: "Archive Orders ID"
 description: "Admin - POST /api/admin/gorobo/orders/[id]/archive. archive with optional reason."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

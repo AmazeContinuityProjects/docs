@@ -3,7 +3,7 @@ title: "Circulars"
 description: "Academics & VTOP - POST /api/circulars. University circulars list. Partial envelope (known inconsistency)."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

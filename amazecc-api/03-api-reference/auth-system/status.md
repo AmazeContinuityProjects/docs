@@ -3,7 +3,7 @@ title: "Status"
 description: "Auth & System - GET /api/status. Trivial liveness probe."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

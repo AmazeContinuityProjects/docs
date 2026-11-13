@@ -3,7 +3,7 @@ title: "Waitlist"
 description: "CabShare - POST /api/cabshare/waitlist. Join the waitlist for a full trip."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

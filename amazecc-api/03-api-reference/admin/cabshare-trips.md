@@ -3,7 +3,7 @@ title: "Trips"
 description: "Admin - GET/DELETE /api/admin/cabshare/trips. CabShare trips moderation. DELETE ?trip_id"
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

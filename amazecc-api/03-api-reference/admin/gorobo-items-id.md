@@ -3,7 +3,7 @@ title: "Items [id]"
 description: "Admin - PUT/DELETE /api/admin/gorobo/items/[id]. Update/remove one item."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

@@ -3,7 +3,7 @@ title: "Match"
 description: "CabShare - POST /api/cabshare/match. Confirm/decline a cab-share match for a trip."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 

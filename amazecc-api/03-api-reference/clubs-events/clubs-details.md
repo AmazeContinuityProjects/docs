@@ -3,7 +3,7 @@ title: "Details"
 description: "Clubs & Events - GET /api/clubs/details. Public club directory from our DB."
 ---
 
-{/* generated: aapi1 */}
+{/* generated: aapi2 */}
 
 import { EndpointTry } from "/snippets/amazecc-api/endpoint-try.jsx";
 
