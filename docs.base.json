@@ -51,6 +51,10 @@
       {
         "tab": "AmazeCC Documentation",
         "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC" }]
+      },
+      {
+        "tab": "AmazeCC-API",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeCC-API" }]
       }
     ]
   },

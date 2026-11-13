@@ -7,3 +7,6 @@ sources:
   - repo: AmazeContinuityProjects/AmazeCC
     path: docs
     destination: amazecc
+  - repo: AmazeContinuityProjects/AmazeCC-API
+    path: docs
+    destination: amazecc-api
