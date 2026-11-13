@@ -16,6 +16,8 @@ sources:
   - repo: AmazeContinuityProjects/AmazeCC-Club-Hub
     path: docs
     destination: amazecc-club-hub
+    # docs/ only exists on modifs until PR #5 merges into main; drop this ref then
+    ref: modifs
   - repo: AmazeContinuityProjects/landing
     path: docs
     destination: landing
