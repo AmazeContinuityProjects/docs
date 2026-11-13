@@ -2,7 +2,8 @@
   "destinations": [
     "amazecc",
     "amazecc-dashboard",
-    "amazecc-api"
+    "amazecc-api",
+    "landing"
   ],
   "sources": {
     "amazecc": {
@@ -16,6 +17,10 @@
     "amazecc-api": {
       "repo": "AmazeContinuityProjects/AmazeCC-API",
       "sha": "64d44f403ecc228d0780457e569abb916f246197"
+    },
+    "landing": {
+      "repo": "AmazeContinuityProjects/landing",
+      "sha": "c7163ca64ad2281d898517d76f53cfbbcc7ff7d3"
     }
   }
 }

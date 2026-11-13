@@ -1269,6 +1269,120 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Landing",
+        "pages": [
+          {
+            "group": "Start here",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Start here",
+                "root": "landing/00-start-here/index",
+                "pages": [
+                  "landing/00-start-here/site-in-five-minutes",
+                  "landing/00-start-here/quickstart",
+                  "landing/00-start-here/request-from-click-to-database"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Marketing site",
+            "icon": "panels-top-left",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Site architecture",
+                "root": "landing/01-marketing-site/index",
+                "pages": [
+                  "landing/01-marketing-site/routes-and-layout",
+                  "landing/01-marketing-site/homepage-sections",
+                  "landing/01-marketing-site/content-model",
+                  "landing/01-marketing-site/interaction-and-accessibility",
+                  "landing/01-marketing-site/project-showcase-pages"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Recruitment",
+            "icon": "users-round",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Application flow",
+                "root": "landing/02-recruitment/index",
+                "pages": [
+                  "landing/02-recruitment/applicant-journey",
+                  "landing/02-recruitment/form-state-and-validation",
+                  "landing/02-recruitment/recruitment-api",
+                  "landing/02-recruitment/database-model-and-upserts",
+                  "landing/02-recruitment/privacy-and-failure-behavior",
+                  "landing/02-recruitment/testing-the-flow"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Cloudflare and deployment",
+            "icon": "cloud",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Runtime and operations",
+                "root": "landing/03-cloudflare/index",
+                "pages": [
+                  "landing/03-cloudflare/static-export-and-pages-functions",
+                  "landing/03-cloudflare/d1-migrations-and-local-data",
+                  "landing/03-cloudflare/configuration-reference",
+                  "landing/03-cloudflare/deployment-workflow",
+                  "landing/03-cloudflare/troubleshooting"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Code tours",
+            "icon": "code",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Read the implementation",
+                "root": "landing/04-code-tour/index",
+                "pages": [
+                  "landing/04-code-tour/typescript-react-and-http-syntax",
+                  "landing/04-code-tour/join-form-line-by-line",
+                  "landing/04-code-tour/recruitment-function-line-by-line",
+                  "landing/04-code-tour/homepage-layout-and-section-composition",
+                  "landing/04-code-tour/reveal-and-cursor-effects",
+                  "landing/04-code-tour/shared-components-and-styling",
+                  "landing/04-code-tour/source-module-catalog"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "book",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Reference",
+                "root": "landing/05-reference/index",
+                "pages": [
+                  "landing/05-reference/repository-map",
+                  "landing/05-reference/configuration-and-environment-variables",
+                  "landing/05-reference/routes-data-and-statuses",
+                  "landing/05-reference/glossary",
+                  "landing/05-reference/ai-and-mintlify-tools"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
