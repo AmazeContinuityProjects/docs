@@ -1,11 +1,16 @@
 {
   "destinations": [
-    "amazecc"
+    "amazecc",
+    "amazecc-api"
   ],
   "sources": {
     "amazecc": {
       "repo": "AmazeContinuityProjects/AmazeCC",
       "sha": "4e8b7996b62375cae8a1ef18efcd634689f6903e"
+    },
+    "amazecc-api": {
+      "repo": "AmazeContinuityProjects/AmazeCC-API",
+      "sha": "b295ed8849e9d76a9d815f8247f54d228877decc"
     }
   }
 }

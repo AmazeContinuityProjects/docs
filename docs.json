@@ -805,6 +805,323 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "AmazeCC-API",
+        "pages": [
+          {
+            "group": "Start here",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Start Here",
+                "root": "amazecc-api/00-start-here/index",
+                "pages": [
+                  "amazecc-api/00-start-here/conventions",
+                  "amazecc-api/00-start-here/how-a-request-flows",
+                  "amazecc-api/00-start-here/quickstart"
+                ],
+                "expanded": true
+              }
+            ]
+          },
+          {
+            "group": "Authentication",
+            "icon": "shield-check",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Authentication",
+                "root": "amazecc-api/01-authentication/index",
+                "pages": [
+                  "amazecc-api/01-authentication/admin-auth",
+                  "amazecc-api/01-authentication/cabshare-auth",
+                  "amazecc-api/01-authentication/club-auth",
+                  "amazecc-api/01-authentication/eventhub-auth",
+                  "amazecc-api/01-authentication/lms-auth",
+                  "amazecc-api/01-authentication/sessions-and-cookies",
+                  "amazecc-api/01-authentication/social-identity",
+                  "amazecc-api/01-authentication/vtop-login"
+                ],
+                "expanded": true
+              }
+            ]
+          },
+          {
+            "group": "Internals",
+            "icon": "cpu",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Internals",
+                "root": "amazecc-api/02-internals/index",
+                "pages": [
+                  "amazecc-api/02-internals/attendance-endpoint",
+                  "amazecc-api/02-internals/b2-and-ocr",
+                  "amazecc-api/02-internals/bulk-and-proxies",
+                  "amazecc-api/02-internals/db-layer",
+                  "amazecc-api/02-internals/login-endpoint",
+                  "amazecc-api/02-internals/parsers",
+                  "amazecc-api/02-internals/social-crypto",
+                  "amazecc-api/02-internals/vtop-client"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "API Reference",
+            "icon": "book-open",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Auth & System",
+                "root": "amazecc-api/03-api-reference/auth-system/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/auth-system/admin-auth",
+                  "amazecc-api/03-api-reference/auth-system/cron-reminders",
+                  "amazecc-api/03-api-reference/auth-system/docs",
+                  "amazecc-api/03-api-reference/auth-system/fresher-resources",
+                  "amazecc-api/03-api-reference/auth-system/health",
+                  "amazecc-api/03-api-reference/auth-system/login",
+                  "amazecc-api/03-api-reference/auth-system/notifications-status",
+                  "amazecc-api/03-api-reference/auth-system/notifications-subscribe",
+                  "amazecc-api/03-api-reference/auth-system/notifications-unsubscribe",
+                  "amazecc-api/03-api-reference/auth-system/settings-global",
+                  "amazecc-api/03-api-reference/auth-system/status"
+                ]
+              },
+              {
+                "group": "Academics & VTOP",
+                "root": "amazecc-api/03-api-reference/academics-vtop/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/academics-vtop/attendance",
+                  "amazecc-api/03-api-reference/academics-vtop/attendance-htmlparser2",
+                  "amazecc-api/03-api-reference/academics-vtop/bulk",
+                  "amazecc-api/03-api-reference/academics-vtop/calendar",
+                  "amazecc-api/03-api-reference/academics-vtop/circulars",
+                  "amazecc-api/03-api-reference/academics-vtop/circulars-download",
+                  "amazecc-api/03-api-reference/academics-vtop/course-page",
+                  "amazecc-api/03-api-reference/academics-vtop/course-page-material",
+                  "amazecc-api/03-api-reference/academics-vtop/curriculum",
+                  "amazecc-api/03-api-reference/academics-vtop/curriculum-download",
+                  "amazecc-api/03-api-reference/academics-vtop/curriculum-syllabus",
+                  "amazecc-api/03-api-reference/academics-vtop/ffcs",
+                  "amazecc-api/03-api-reference/academics-vtop/grades",
+                  "amazecc-api/03-api-reference/academics-vtop/hostel",
+                  "amazecc-api/03-api-reference/academics-vtop/marks-stats",
+                  "amazecc-api/03-api-reference/academics-vtop/marks-sync",
+                  "amazecc-api/03-api-reference/academics-vtop/marks-tokens",
+                  "amazecc-api/03-api-reference/academics-vtop/od",
+                  "amazecc-api/03-api-reference/academics-vtop/whoami"
+                ],
+                "expanded": true
+              },
+              {
+                "group": "Transport & Buses",
+                "root": "amazecc-api/03-api-reference/transport-buses/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/transport-buses/buses",
+                  "amazecc-api/03-api-reference/transport-buses/transport"
+                ]
+              },
+              {
+                "group": "Finance",
+                "root": "amazecc-api/03-api-reference/finance/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/finance/finance"
+                ]
+              },
+              {
+                "group": "Clubs & Events",
+                "root": "amazecc-api/03-api-reference/clubs-events/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/clubs-events/club-admin-details",
+                  "amazecc-api/03-api-reference/clubs-events/club-admin-feed",
+                  "amazecc-api/03-api-reference/clubs-events/club-admin-feed-promote",
+                  "amazecc-api/03-api-reference/clubs-events/club-admin-landing-page",
+                  "amazecc-api/03-api-reference/clubs-events/club-admin-reps",
+                  "amazecc-api/03-api-reference/clubs-events/clubs-details",
+                  "amazecc-api/03-api-reference/clubs-events/events",
+                  "amazecc-api/03-api-reference/clubs-events/events-download",
+                  "amazecc-api/03-api-reference/clubs-events/events-login",
+                  "amazecc-api/03-api-reference/clubs-events/events-paynow",
+                  "amazecc-api/03-api-reference/clubs-events/events-preview",
+                  "amazecc-api/03-api-reference/clubs-events/events-profile",
+                  "amazecc-api/03-api-reference/clubs-events/events-register"
+                ]
+              },
+              {
+                "group": "Social (FFCS Partners)",
+                "root": "amazecc-api/03-api-reference/social/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/social/ffcs-match",
+                  "amazecc-api/03-api-reference/social/grant-revoke",
+                  "amazecc-api/03-api-reference/social/grant-visibility",
+                  "amazecc-api/03-api-reference/social/identity-sync",
+                  "amazecc-api/03-api-reference/social/pair-claim",
+                  "amazecc-api/03-api-reference/social/people",
+                  "amazecc-api/03-api-reference/social/semester",
+                  "amazecc-api/03-api-reference/social/timetable"
+                ]
+              },
+              {
+                "group": "QBank",
+                "root": "amazecc-api/03-api-reference/qbank/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/qbank/admin-import-to-storage",
+                  "amazecc-api/03-api-reference/qbank/admin-ocr",
+                  "amazecc-api/03-api-reference/qbank/admin-publish",
+                  "amazecc-api/03-api-reference/qbank/admin-questions",
+                  "amazecc-api/03-api-reference/qbank/admin-questions-bulk",
+                  "amazecc-api/03-api-reference/qbank/admin-queue",
+                  "amazecc-api/03-api-reference/qbank/admin-reject",
+                  "amazecc-api/03-api-reference/qbank/courses",
+                  "amazecc-api/03-api-reference/qbank/papers",
+                  "amazecc-api/03-api-reference/qbank/papers-download-paperId",
+                  "amazecc-api/03-api-reference/qbank/questions",
+                  "amazecc-api/03-api-reference/qbank/upload"
+                ]
+              },
+              {
+                "group": "GoRobo Shop",
+                "root": "amazecc-api/03-api-reference/gorobo/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/gorobo/items",
+                  "amazecc-api/03-api-reference/gorobo/orders",
+                  "amazecc-api/03-api-reference/gorobo/seed",
+                  "amazecc-api/03-api-reference/gorobo/version"
+                ]
+              },
+              {
+                "group": "LMS & Koha",
+                "root": "amazecc-api/03-api-reference/lms-koha/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/lms-koha/koha-availability",
+                  "amazecc-api/03-api-reference/lms-koha/koha-detail",
+                  "amazecc-api/03-api-reference/lms-koha/koha-patron",
+                  "amazecc-api/03-api-reference/lms-koha/koha-search",
+                  "amazecc-api/03-api-reference/lms-koha/lms-data",
+                  "amazecc-api/03-api-reference/lms-koha/vitol-data"
+                ]
+              },
+              {
+                "group": "Faculty Directory",
+                "root": "amazecc-api/03-api-reference/faculty/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/faculty/schools",
+                  "amazecc-api/03-api-reference/faculty/scrape"
+                ]
+              },
+              {
+                "group": "CabShare",
+                "root": "amazecc-api/03-api-reference/cabshare/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/cabshare/auth",
+                  "amazecc-api/03-api-reference/cabshare/blocks",
+                  "amazecc-api/03-api-reference/cabshare/hubs",
+                  "amazecc-api/03-api-reference/cabshare/match",
+                  "amazecc-api/03-api-reference/cabshare/notifications",
+                  "amazecc-api/03-api-reference/cabshare/ratings",
+                  "amazecc-api/03-api-reference/cabshare/stats",
+                  "amazecc-api/03-api-reference/cabshare/trips",
+                  "amazecc-api/03-api-reference/cabshare/trips-me",
+                  "amazecc-api/03-api-reference/cabshare/waitlist"
+                ]
+              },
+              {
+                "group": "Admin",
+                "root": "amazecc-api/03-api-reference/admin/index",
+                "pages": [
+                  "amazecc-api/03-api-reference/admin/buses",
+                  "amazecc-api/03-api-reference/admin/cabshare-hubs",
+                  "amazecc-api/03-api-reference/admin/cabshare-trips",
+                  "amazecc-api/03-api-reference/admin/clubs",
+                  "amazecc-api/03-api-reference/admin/clubs-representatives",
+                  "amazecc-api/03-api-reference/admin/faculty-directories",
+                  "amazecc-api/03-api-reference/admin/fresher-resources",
+                  "amazecc-api/03-api-reference/admin/fresher-resources-id",
+                  "amazecc-api/03-api-reference/admin/gorobo-analytics",
+                  "amazecc-api/03-api-reference/admin/gorobo-bundles",
+                  "amazecc-api/03-api-reference/admin/gorobo-bundles-id",
+                  "amazecc-api/03-api-reference/admin/gorobo-items",
+                  "amazecc-api/03-api-reference/admin/gorobo-items-id",
+                  "amazecc-api/03-api-reference/admin/gorobo-items-stock",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders-id",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders-id-archive",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders-id-complete",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders-id-confirm",
+                  "amazecc-api/03-api-reference/admin/gorobo-orders-id-unarchive",
+                  "amazecc-api/03-api-reference/admin/gorobo-wallet",
+                  "amazecc-api/03-api-reference/admin/gorobo-wallet-orders-id-settle",
+                  "amazecc-api/03-api-reference/admin/migrate",
+                  "amazecc-api/03-api-reference/admin/ocr",
+                  "amazecc-api/03-api-reference/admin/ocr-reset",
+                  "amazecc-api/03-api-reference/admin/push",
+                  "amazecc-api/03-api-reference/admin/settings-global",
+                  "amazecc-api/03-api-reference/admin/stats",
+                  "amazecc-api/03-api-reference/admin/storage",
+                  "amazecc-api/03-api-reference/admin/transport-placements",
+                  "amazecc-api/03-api-reference/admin/transport-routes",
+                  "amazecc-api/03-api-reference/admin/transport-routes-id",
+                  "amazecc-api/03-api-reference/admin/transport-routes-id-stops",
+                  "amazecc-api/03-api-reference/admin/transport-rules",
+                  "amazecc-api/03-api-reference/admin/transport-rules-id",
+                  "amazecc-api/03-api-reference/admin/transport-seed",
+                  "amazecc-api/03-api-reference/admin/transport-students",
+                  "amazecc-api/03-api-reference/admin/users",
+                  "amazecc-api/03-api-reference/admin/users-username"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Operations",
+            "icon": "wrench",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Operations",
+                "root": "amazecc-api/04-operations/index",
+                "pages": [
+                  "amazecc-api/04-operations/cron-and-push",
+                  "amazecc-api/04-operations/deployment",
+                  "amazecc-api/04-operations/env-vars",
+                  "amazecc-api/04-operations/security"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "book",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "Reference",
+                "root": "amazecc-api/05-reference/index",
+                "pages": [
+                  "amazecc-api/05-reference/m-app",
+                  "amazecc-api/05-reference/openapi-spec",
+                  "amazecc-api/05-reference/routes-index",
+                  "amazecc-api/05-reference/types"
+                ]
+              },
+              {
+                "group": "The VITianCC App (RE Notes)",
+                "root": "amazecc-api/m-app/index",
+                "pages": [
+                  "amazecc-api/m-app/api-client-and-networking",
+                  "amazecc-api/m-app/business-logic",
+                  "amazecc-api/m-app/endpoints",
+                  "amazecc-api/m-app/login-and-auth",
+                  "amazecc-api/m-app/native-and-security"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
