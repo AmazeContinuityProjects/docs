@@ -2,12 +2,46 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AmazeCC Docs",
+  "description": "Developer documentation for AmazeCC — the VIT student portal rebuilt. Guides, architecture, and reference for the app 20,000+ students use.",
   "colors": {
     "primary": "#6366F1",
     "light": "#818CF8",
     "dark": "#4F46E5"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "codeblocks": "dark"
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "search": {
+    "prompt": "Search the AmazeCC handbook…"
+  },
   "navigation": {
     "tabs": [
       {
@@ -732,15 +766,12 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
-        "label": "GitHub",
-        "href": "https://github.com/AmazeContinuityProjects/AmazeCC"
+        "type": "github",
+        "href": "https://github.com/AmazeContinuityProjects/AmazeCC",
+        "label": "GitHub"
       }
     ],
     "primary": {
@@ -759,7 +790,24 @@
       "mcp",
       "cursor",
       "vscode"
-    ]
+    ],
+    "display": "header"
+  },
+  "thumbnails": {
+    "preset": "headline",
+    "surface": "brand",
+    "eyebrow": {
+      "source": "group"
+    }
+  },
+  "seo": {
+    "organization": {
+      "name": "AmazeContinuityProjects",
+      "url": "https://amazecc.com",
+      "sameAs": [
+        "https://github.com/AmazeContinuityProjects"
+      ]
+    }
   },
   "footer": {
     "socials": {
