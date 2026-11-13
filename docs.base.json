@@ -67,6 +67,10 @@
       {
         "tab": "Landing",
         "pages": [{ "sourceRef": "AmazeContinuityProjects/landing" }]
+      },
+      {
+        "tab": "AmazeUI",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeUI" }]
       }
     ]
   },

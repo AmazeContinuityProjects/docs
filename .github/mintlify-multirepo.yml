@@ -21,3 +21,6 @@ sources:
   - repo: AmazeContinuityProjects/landing
     path: docs
     destination: landing
+  - repo: AmazeContinuityProjects/AmazeUI
+    path: docs
+    destination: amazeui
