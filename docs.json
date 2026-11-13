@@ -56,7 +56,7 @@
         "pages": [
           {
             "group": "Start here · Web Foundation",
-            "root": "amazecc/00-web-foundation/README",
+            "root": "amazecc/00-web-foundation/index",
             "pages": [
               "amazecc/00-web-foundation/01-what-a-web-app-is",
               "amazecc/00-web-foundation/02-html-css-js",
@@ -75,7 +75,7 @@
           },
           {
             "group": "Start here · Getting Started",
-            "root": "amazecc/01-getting-started/README",
+            "root": "amazecc/01-getting-started/index",
             "pages": [
               "amazecc/01-getting-started/01-prerequisites",
               "amazecc/01-getting-started/02-clone-and-install",
@@ -90,7 +90,7 @@
           },
           {
             "group": "Start here · Architecture",
-            "root": "amazecc/02-architecture/README",
+            "root": "amazecc/02-architecture/index",
             "pages": [
               "amazecc/02-architecture/01-runtime-topology",
               "amazecc/02-architecture/02-the-one-page-app",
@@ -106,7 +106,7 @@
           },
           {
             "group": "Start here · Routing & Navigation",
-            "root": "amazecc/03-routing/README",
+            "root": "amazecc/03-routing/index",
             "pages": [
               "amazecc/03-routing/01-next-routes",
               "amazecc/03-routing/02-tab-router",
@@ -120,7 +120,7 @@
           },
           {
             "group": "Start here · App Shell",
-            "root": "amazecc/04-app-shell/README",
+            "root": "amazecc/04-app-shell/index",
             "pages": [
               "amazecc/04-app-shell/01-main-tsx",
               "amazecc/04-app-shell/02-home-entry-controller",
@@ -137,16 +137,16 @@
           },
           {
             "group": "Features · FFCS Planner",
-            "root": "amazecc/05-ffcs-planner/README",
+            "root": "amazecc/05-ffcs-planner/index",
             "pages": [
               "amazecc/05-ffcs-planner/architecture",
               "amazecc/05-ffcs-planner/data-model",
               "amazecc/05-ffcs-planner/deep-dive-guided-selector",
               "amazecc/05-ffcs-planner/history",
               "amazecc/05-ffcs-planner/known-issues",
-              "amazecc/05-ffcs-planner/notes/README",
               "amazecc/05-ffcs-planner/notes/clash-detection-and-schema",
               "amazecc/05-ffcs-planner/notes/embedded-course-pairing",
+              "amazecc/05-ffcs-planner/notes/index",
               "amazecc/05-ffcs-planner/notes/timetable-export-and-reviews",
               "amazecc/05-ffcs-planner/overview",
               "amazecc/05-ffcs-planner/storage-and-state",
@@ -156,7 +156,7 @@
           },
           {
             "group": "Features · Attendance",
-            "root": "amazecc/05-attendance/README",
+            "root": "amazecc/05-attendance/index",
             "pages": [
               "amazecc/05-attendance/architecture",
               "amazecc/05-attendance/data-model",
@@ -170,7 +170,7 @@
           },
           {
             "group": "Features · Academics",
-            "root": "amazecc/05-academics/README",
+            "root": "amazecc/05-academics/index",
             "pages": [
               "amazecc/05-academics/architecture",
               "amazecc/05-academics/data-model",
@@ -184,7 +184,7 @@
           },
           {
             "group": "Features · Marks Predictor",
-            "root": "amazecc/05-marks-predictor/README",
+            "root": "amazecc/05-marks-predictor/index",
             "pages": [
               "amazecc/05-marks-predictor/architecture",
               "amazecc/05-marks-predictor/data-model",
@@ -198,7 +198,7 @@
           },
           {
             "group": "Features · Free Classrooms",
-            "root": "amazecc/05-free-classrooms/README",
+            "root": "amazecc/05-free-classrooms/index",
             "pages": [
               "amazecc/05-free-classrooms/architecture",
               "amazecc/05-free-classrooms/data-model",
@@ -212,7 +212,7 @@
           },
           {
             "group": "Features · Marks & Cohort Stats",
-            "root": "amazecc/05-marks-and-cohort/README",
+            "root": "amazecc/05-marks-and-cohort/index",
             "pages": [
               "amazecc/05-marks-and-cohort/architecture",
               "amazecc/05-marks-and-cohort/data-model",
@@ -226,7 +226,7 @@
           },
           {
             "group": "Features · Timetable UI",
-            "root": "amazecc/05-timetable-ui/README",
+            "root": "amazecc/05-timetable-ui/index",
             "pages": [
               "amazecc/05-timetable-ui/architecture",
               "amazecc/05-timetable-ui/data-model",
@@ -240,7 +240,7 @@
           },
           {
             "group": "Features · FFCS Friends",
-            "root": "amazecc/05-ffcs-friends/README",
+            "root": "amazecc/05-ffcs-friends/index",
             "pages": [
               "amazecc/05-ffcs-friends/architecture",
               "amazecc/05-ffcs-friends/data-model",
@@ -254,7 +254,7 @@
           },
           {
             "group": "Features · Social",
-            "root": "amazecc/05-social/README",
+            "root": "amazecc/05-social/index",
             "pages": [
               "amazecc/05-social/architecture",
               "amazecc/05-social/data-model",
@@ -268,7 +268,7 @@
           },
           {
             "group": "Features · Friend Finder",
-            "root": "amazecc/05-friend-finder/README",
+            "root": "amazecc/05-friend-finder/index",
             "pages": [
               "amazecc/05-friend-finder/architecture",
               "amazecc/05-friend-finder/data-model",
@@ -283,7 +283,7 @@
           },
           {
             "group": "Features · Hostel",
-            "root": "amazecc/05-hostel/README",
+            "root": "amazecc/05-hostel/index",
             "pages": [
               "amazecc/05-hostel/architecture",
               "amazecc/05-hostel/data-model",
@@ -297,7 +297,7 @@
           },
           {
             "group": "Features · Libraries",
-            "root": "amazecc/05-libraries/README",
+            "root": "amazecc/05-libraries/index",
             "pages": [
               "amazecc/05-libraries/architecture",
               "amazecc/05-libraries/data-model",
@@ -311,7 +311,7 @@
           },
           {
             "group": "Features · Payments",
-            "root": "amazecc/05-payments/README",
+            "root": "amazecc/05-payments/index",
             "pages": [
               "amazecc/05-payments/architecture",
               "amazecc/05-payments/data-model",
@@ -325,7 +325,7 @@
           },
           {
             "group": "Features · Events & Clubs",
-            "root": "amazecc/05-events-and-clubs/README",
+            "root": "amazecc/05-events-and-clubs/index",
             "pages": [
               "amazecc/05-events-and-clubs/architecture",
               "amazecc/05-events-and-clubs/data-model",
@@ -339,7 +339,7 @@
           },
           {
             "group": "Features · Cab Share",
-            "root": "amazecc/05-cab-share/README",
+            "root": "amazecc/05-cab-share/index",
             "pages": [
               "amazecc/05-cab-share/architecture",
               "amazecc/05-cab-share/data-model",
@@ -353,7 +353,7 @@
           },
           {
             "group": "Features · Tasks & Pomodoro",
-            "root": "amazecc/05-tasks-and-pomodoro/README",
+            "root": "amazecc/05-tasks-and-pomodoro/index",
             "pages": [
               "amazecc/05-tasks-and-pomodoro/architecture",
               "amazecc/05-tasks-and-pomodoro/data-model",
@@ -367,7 +367,7 @@
           },
           {
             "group": "Features · QBank",
-            "root": "amazecc/05-qbank/README",
+            "root": "amazecc/05-qbank/index",
             "pages": [
               "amazecc/05-qbank/architecture",
               "amazecc/05-qbank/data-model",
@@ -381,7 +381,7 @@
           },
           {
             "group": "Features · Paper Scanner",
-            "root": "amazecc/05-paper-scanner/README",
+            "root": "amazecc/05-paper-scanner/index",
             "pages": [
               "amazecc/05-paper-scanner/architecture",
               "amazecc/05-paper-scanner/data-model",
@@ -395,7 +395,7 @@
           },
           {
             "group": "Features · Student Report",
-            "root": "amazecc/05-student-report/README",
+            "root": "amazecc/05-student-report/index",
             "pages": [
               "amazecc/05-student-report/architecture",
               "amazecc/05-student-report/data-model",
@@ -409,7 +409,7 @@
           },
           {
             "group": "Features · Settings & Profile",
-            "root": "amazecc/05-settings-and-profile/README",
+            "root": "amazecc/05-settings-and-profile/index",
             "pages": [
               "amazecc/05-settings-and-profile/architecture",
               "amazecc/05-settings-and-profile/data-model",
@@ -423,7 +423,7 @@
           },
           {
             "group": "Features · Notifications & Push",
-            "root": "amazecc/05-notifications-and-push/README",
+            "root": "amazecc/05-notifications-and-push/index",
             "pages": [
               "amazecc/05-notifications-and-push/architecture",
               "amazecc/05-notifications-and-push/data-model",
@@ -437,7 +437,7 @@
           },
           {
             "group": "Features · Feedback & Support",
-            "root": "amazecc/05-feedback-and-support/README",
+            "root": "amazecc/05-feedback-and-support/index",
             "pages": [
               "amazecc/05-feedback-and-support/architecture",
               "amazecc/05-feedback-and-support/data-model",
@@ -451,7 +451,7 @@
           },
           {
             "group": "Features · Changelog & About",
-            "root": "amazecc/05-changelog-and-about/README",
+            "root": "amazecc/05-changelog-and-about/index",
             "pages": [
               "amazecc/05-changelog-and-about/architecture",
               "amazecc/05-changelog-and-about/data-model",
@@ -465,7 +465,7 @@
           },
           {
             "group": "Features · About & Licensing",
-            "root": "amazecc/05-about-and-licensing/README",
+            "root": "amazecc/05-about-and-licensing/index",
             "pages": [
               "amazecc/05-about-and-licensing/architecture",
               "amazecc/05-about-and-licensing/data-model",
@@ -479,7 +479,7 @@
           },
           {
             "group": "Features · Onboarding",
-            "root": "amazecc/05-onboarding/README",
+            "root": "amazecc/05-onboarding/index",
             "pages": [
               "amazecc/05-onboarding/architecture",
               "amazecc/05-onboarding/data-model",
@@ -493,7 +493,7 @@
           },
           {
             "group": "Features · Guest Landing",
-            "root": "amazecc/05-guest-landing/README",
+            "root": "amazecc/05-guest-landing/index",
             "pages": [
               "amazecc/05-guest-landing/architecture",
               "amazecc/05-guest-landing/data-model",
@@ -507,7 +507,7 @@
           },
           {
             "group": "Systems · Sync Engine",
-            "root": "amazecc/06-sync-engine/README",
+            "root": "amazecc/06-sync-engine/index",
             "pages": [
               "amazecc/06-sync-engine/01-overview",
               "amazecc/06-sync-engine/02-request-layer",
@@ -529,7 +529,7 @@
           },
           {
             "group": "Systems · Data Layer",
-            "root": "amazecc/07-data-layer/README",
+            "root": "amazecc/07-data-layer/index",
             "pages": [
               "amazecc/07-data-layer/01-storage-overview",
               "amazecc/07-data-layer/02-storage.ts-catalog",
@@ -546,7 +546,7 @@
           },
           {
             "group": "Systems · PWA Platform",
-            "root": "amazecc/08-pwa-platform/README",
+            "root": "amazecc/08-pwa-platform/index",
             "pages": [
               "amazecc/08-pwa-platform/01-service-worker",
               "amazecc/08-pwa-platform/02-manifests",
@@ -562,7 +562,7 @@
           },
           {
             "group": "Systems · Testing",
-            "root": "amazecc/09-testing/README",
+            "root": "amazecc/09-testing/index",
             "pages": [
               "amazecc/09-testing/01-vitest-config",
               "amazecc/09-testing/02-running-suites",
@@ -578,7 +578,7 @@
           },
           {
             "group": "Operations · Tooling & CI",
-            "root": "amazecc/10-tooling-and-ci/README",
+            "root": "amazecc/10-tooling-and-ci/index",
             "pages": [
               "amazecc/10-tooling-and-ci/01-pnpm-and-workspace",
               "amazecc/10-tooling-and-ci/02-scripts",
@@ -593,7 +593,7 @@
           },
           {
             "group": "Operations · Security",
-            "root": "amazecc/11-security/README",
+            "root": "amazecc/11-security/index",
             "pages": [
               "amazecc/11-security/01-credential-vault-details",
               "amazecc/11-security/02-never-share-we-respect",
@@ -606,7 +606,7 @@
           },
           {
             "group": "Operations · Operations",
-            "root": "amazecc/12-operations/README",
+            "root": "amazecc/12-operations/index",
             "pages": [
               "amazecc/12-operations/01-github-pages-operations",
               "amazecc/12-operations/02-changelog-flow",
@@ -618,7 +618,7 @@
           },
           {
             "group": "Operations · Troubleshooting",
-            "root": "amazecc/13-troubleshooting/README",
+            "root": "amazecc/13-troubleshooting/index",
             "pages": [
               "amazecc/13-troubleshooting/01-sync-fails",
               "amazecc/13-troubleshooting/02-blank-or-stale-app",
@@ -631,16 +631,16 @@
           },
           {
             "group": "Reference · Design Notes",
-            "root": "amazecc/20-design-notes/README",
+            "root": "amazecc/20-design-notes/index",
             "pages": [
               "amazecc/20-design-notes/naming-and-history"
             ]
           },
           {
             "group": "Reference · Reference",
-            "root": "amazecc/99-reference/README",
+            "root": "amazecc/99-reference/index",
             "pages": [
-              "amazecc/99-reference/academy/README",
+              "amazecc/99-reference/academy/index",
               "amazecc/99-reference/academy/marks-grading-mechanics",
               "amazecc/99-reference/academy/timetable-slot-algebra",
               "amazecc/99-reference/academy/vtop-scraping-primer",
@@ -650,7 +650,7 @@
               "amazecc/99-reference/decisions/0004-marks-sync-model",
               "amazecc/99-reference/decisions/0005-service-worker-policy",
               "amazecc/99-reference/decisions/0006-unicc-fallback",
-              "amazecc/99-reference/decisions/README",
+              "amazecc/99-reference/decisions/index",
               "amazecc/99-reference/dependency-catalog",
               "amazecc/99-reference/env-var-reference",
               "amazecc/99-reference/glossary",
@@ -668,7 +668,7 @@
           },
           {
             "group": "Archive (historical)",
-            "root": "amazecc/archive/FFCSketch-Comparison/README",
+            "root": "amazecc/archive/index",
             "pages": [
               "amazecc/archive/FFCSketch-Comparison/00-summary",
               "amazecc/archive/FFCSketch-Comparison/01-architecture",
@@ -678,7 +678,7 @@
               "amazecc/archive/FFCSketch-Comparison/05-share-export-import",
               "amazecc/archive/FFCSketch-Comparison/06-quality-and-testing",
               "amazecc/archive/FFCSketch-Comparison/07-strengths-gaps-porting",
-              "amazecc/archive/README",
+              "amazecc/archive/FFCSketch-Comparison/index",
               "amazecc/archive/api/academic",
               "amazecc/archive/api/admin",
               "amazecc/archive/api/auth",
@@ -701,7 +701,7 @@
               "amazecc/archive/friend-finder-plans/01-api-changes",
               "amazecc/archive/friend-finder-plans/02-app-changes",
               "amazecc/archive/friend-finder-plans/03-build-phases",
-              "amazecc/archive/friend-finder-plans/README",
+              "amazecc/archive/friend-finder-plans/index",
               "amazecc/archive/mobile-friendliness-plan",
               "amazecc/archive/oct-21-2026/ffcs-fixes/PLAN",
               "amazecc/archive/plan-1/attendance-overview",
@@ -739,13 +739,13 @@
               "amazecc/archive/social-tt/11-ui-redesign",
               "amazecc/archive/social-tt/12-migration-plan",
               "amazecc/archive/social-tt/13-open-questions",
-              "amazecc/archive/social-tt/README",
+              "amazecc/archive/social-tt/index",
               "amazecc/archive/student-report/01-data-inventory",
               "amazecc/archive/student-report/02-report-contents",
               "amazecc/archive/student-report/03-visual-and-export",
               "amazecc/archive/student-report/04-calculations-and-provenance",
               "amazecc/archive/student-report/05-privacy-and-inclusion",
-              "amazecc/archive/student-report/README",
+              "amazecc/archive/student-report/index",
               "amazecc/archive/sync-engine/00-overview",
               "amazecc/archive/sync-engine/01-current-state",
               "amazecc/archive/sync-engine/02-architecture",
