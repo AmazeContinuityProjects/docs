@@ -10,7 +10,7 @@
   "sources": {
     "amazecc": {
       "repo": "AmazeContinuityProjects/AmazeCC",
-      "sha": "0ba0e8a63f3c63964b658bd48e3d8c567562b599"
+      "sha": "3d5b7df065d5bff3e7879415f113f505618a50fe"
     },
     "amazecc-dashboard": {
       "repo": "AmazeContinuityProjects/AmazeCC-Dashboard",
@@ -18,7 +18,7 @@
     },
     "amazecc-api": {
       "repo": "AmazeContinuityProjects/AmazeCC-API",
-      "sha": "f8a7d1757e97d755e1f977a9aa84f91a088ab948"
+      "sha": "8c753aed80b9d8659dce284c4821f0e834506e76"
     },
     "amazecc-club-hub": {
       "repo": "AmazeContinuityProjects/AmazeCC-Club-Hub",
