@@ -10,7 +10,7 @@
   "sources": {
     "amazecc": {
       "repo": "AmazeContinuityProjects/AmazeCC",
-      "sha": "e995bfd8af38f7a0d38958e535fbff6294ea6936"
+      "sha": "6173ac7832ebf180fa31d8b7dcf104d8c08d3b10"
     },
     "amazecc-dashboard": {
       "repo": "AmazeContinuityProjects/AmazeCC-Dashboard",
