@@ -4,29 +4,34 @@
     "amazecc-dashboard",
     "amazecc-api",
     "amazecc-club-hub",
-    "landing"
+    "landing",
+    "amazeui"
   ],
   "sources": {
     "amazecc": {
       "repo": "AmazeContinuityProjects/AmazeCC",
-      "sha": "4e8b7996b62375cae8a1ef18efcd634689f6903e"
+      "sha": "6173ac7832ebf180fa31d8b7dcf104d8c08d3b10"
     },
     "amazecc-dashboard": {
       "repo": "AmazeContinuityProjects/AmazeCC-Dashboard",
-      "sha": "5020645acad25cd66a16c752795c8bfa2961093c"
+      "sha": "165e20d6aa6b17eff3a2b5df3f101437e8a2669e"
     },
     "amazecc-api": {
       "repo": "AmazeContinuityProjects/AmazeCC-API",
-      "sha": "64d44f403ecc228d0780457e569abb916f246197"
+      "sha": "8c753aed80b9d8659dce284c4821f0e834506e76"
     },
     "amazecc-club-hub": {
       "repo": "AmazeContinuityProjects/AmazeCC-Club-Hub",
       "ref": "modifs",
-      "sha": "1e6693f5ab715c0d589c65429c364d72a0c8d687"
+      "sha": "97d31238a932a4671382542cb3868003cddc7830"
     },
     "landing": {
       "repo": "AmazeContinuityProjects/landing",
       "sha": "c7163ca64ad2281d898517d76f53cfbbcc7ff7d3"
+    },
+    "amazeui": {
+      "repo": "AmazeContinuityProjects/AmazeUI",
+      "sha": "1f9d498ee4548277a5cc212d95ba3929b016d77e"
     }
   }
 }

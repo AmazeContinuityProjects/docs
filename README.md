@@ -2,7 +2,7 @@
 
 The documentation site for **AmazeCC** — the VIT student portal, rebuilt. A Mintlify site that aggregates the docs tree from the [AmazeCC repository](https://github.com/AmazeContinuityProjects/AmazeCC) and serves it as a single, navigable handbook for developers.
 
-**Live site:** https://amazecc.com/docs (or your Mintlify-assigned URL until the custom domain is wired)
+**Live site:** https://docs.amazecc.com/ (or your Mintlify-assigned URL until the custom domain is wired)
 
 ## How this repo works
 
