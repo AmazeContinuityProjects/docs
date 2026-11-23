@@ -71,6 +71,10 @@
       {
         "tab": "AmazeUI",
         "pages": [{ "sourceRef": "AmazeContinuityProjects/AmazeUI" }]
+      },
+      {
+        "tab": "AmazeCC Kotlin",
+        "pages": [{ "sourceRef": "AmazeContinuityProjects/Amazecc-Kotlin" }]
       }
     ]
   },

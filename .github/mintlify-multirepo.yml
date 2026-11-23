@@ -24,3 +24,8 @@ sources:
   - repo: AmazeContinuityProjects/AmazeUI
     path: docs
     destination: amazeui
+  - repo: AmazeContinuityProjects/Amazecc-Kotlin
+    path: docs
+    destination: amazecc-kotlin
+    # FFCS handbook only exists on this branch until it lands on main
+    ref: overhaul/m3e-stateless-redesign
