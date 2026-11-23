@@ -1611,7 +1611,8 @@
                   "amazecc-kotlin/05-ffcs-planner/ranking-and-priority",
                   "amazecc-kotlin/05-ffcs-planner/drop-ladder-and-errors",
                   "amazecc-kotlin/05-ffcs-planner/share-and-storage",
-                  "amazecc-kotlin/05-ffcs-planner/ui-and-state"
+                  "amazecc-kotlin/05-ffcs-planner/ui-and-state",
+                  "amazecc-kotlin/05-ffcs-planner/embedded-courses"
                 ],
                 "expanded": true
               }
