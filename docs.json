@@ -1591,6 +1591,33 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "AmazeCC Kotlin",
+        "pages": [
+          {
+            "group": "FFCS Planner",
+            "icon": "calendar-days",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "FFCS Planner handbook",
+                "root": "amazecc-kotlin/05-ffcs-planner/index",
+                "pages": [
+                  "amazecc-kotlin/05-ffcs-planner/vocabulary",
+                  "amazecc-kotlin/05-ffcs-planner/architecture",
+                  "amazecc-kotlin/05-ffcs-planner/data-model",
+                  "amazecc-kotlin/05-ffcs-planner/generation-engine",
+                  "amazecc-kotlin/05-ffcs-planner/ranking-and-priority",
+                  "amazecc-kotlin/05-ffcs-planner/drop-ladder-and-errors",
+                  "amazecc-kotlin/05-ffcs-planner/share-and-storage",
+                  "amazecc-kotlin/05-ffcs-planner/ui-and-state"
+                ],
+                "expanded": true
+              }
+            ]
+          }
+        ]
       }
     ]
   },

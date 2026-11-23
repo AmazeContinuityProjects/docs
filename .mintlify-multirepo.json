@@ -5,7 +5,8 @@
     "amazecc-api",
     "amazecc-club-hub",
     "landing",
-    "amazeui"
+    "amazeui",
+    "amazecc-kotlin"
   ],
   "sources": {
     "amazecc": {
@@ -32,6 +33,11 @@
     "amazeui": {
       "repo": "AmazeContinuityProjects/AmazeUI",
       "sha": "1f9d498ee4548277a5cc212d95ba3929b016d77e"
+    },
+    "amazecc-kotlin": {
+      "repo": "AmazeContinuityProjects/Amazecc-Kotlin",
+      "ref": "overhaul/m3e-stateless-redesign",
+      "sha": "f82ef2774871844cb08771ffb8da8898115f7b75"
     }
   }
 }
